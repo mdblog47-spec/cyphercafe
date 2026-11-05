@@ -1,7 +1,8 @@
 // PrintFlow licence client — talks to the Google Apps Script licence server (Code.gs)
 
 // 👇 Apps Script "Web app" deploy URL yahan paste karo
-export const LICENSE_API_URL = "PASTE_APPS_SCRIPT_WEB_APP_URL_HERE"
+export const LICENSE_API_URL =
+  "https://script.google.com/macros/s/AKfycbxpqGEqKBbxSudNgBuGkuxV1YCqhlPCarol359BBWwAu2vzl1-9bXqLAerGOeCcvcW1vw/exec"
 
 // package.json ke "version" se automatically aata hai (vite.config.ts mein define hai)
 export const APP_VERSION = __APP_VERSION__
